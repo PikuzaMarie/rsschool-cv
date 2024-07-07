@@ -46,3 +46,6 @@ for (let i=0; i<n; i++){
 * ***[Introduction to HTML5](https://www.coursera.org/account/accomplishments/certificate/JNWKAB9E7LK5)*** - University of Michigan
 ***
 ## Languages
+* Russian - Native
+* English - C2 ([EF SET certificate](https://www.efset.org/cert/QS4hVq))
+* Deutsch - A1

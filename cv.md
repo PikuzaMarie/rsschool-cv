@@ -19,6 +19,11 @@ I blast at:
 I'm looking for a job where I can become a valuable team member who will help to make pleasing website or application.
 ***
 ## Skills
+* HTML5, CSS3
+* JavaScript Basics
+* Git, GitHub
+* VS Code, IntelliJ IDEA
+* Adobe Photoshop, Illustrator, Figma
 ***
 ## Code example
 ***

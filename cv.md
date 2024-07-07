@@ -5,7 +5,8 @@
 **Phone:**+375287333771  
 **Email:**pikuza.mari@gmail.com  
 [Linkedin]("http://linkedin.com/in/maryia-pikuza-946a60292")  
-[Behance]("https://www.behance.net/fel-lord")  
+[Behance]("https://www.behance.net/fel-lord")
+
 ---
 ## About me
 Having started as a UI/UX Designer, I realised that my strong analytical skills and patience can help me to succeed in code area too. My aim is to work hard and dedicate as much time as possible to reach the position of a Frontend developer at some project. I consider myself a creative person who values logic in their work which fits great in programming sphere.
@@ -17,6 +18,7 @@ I blast at:
 * time management
 
 I'm looking for a job where I can become a valuable team member who will help to make pleasing website or application.
+
 ---
 ## Skills
 * HTML5, CSS3
@@ -24,6 +26,7 @@ I'm looking for a job where I can become a valuable team member who will help to
 * Git, GitHub
 * VS Code, IntelliJ IDEA
 * Adobe Photoshop, Illustrator, Figma
+
 ---
 ## Code example
 ***Count by X KATA from CODEWARS:***Create a function with two arguments that will return an array of the first n multiples of x
@@ -38,6 +41,7 @@ for (let i=0; i<n; i++){
   return z;
 }
 \```
+
 ---
 ## Courses
 * ***JavaScript/Front-end. Stage 0*** - RS Schools Course  (in progress)

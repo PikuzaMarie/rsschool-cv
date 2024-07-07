@@ -40,5 +40,9 @@ for (let i=0; i<n; i++){
 ```
 ***
 ## Courses
+* ***JavaScript/Front-end. Stage 0*** - RS Schools Course  (in progress)
+* ***[Introduction to CSS3](https://www.coursera.org/account/accomplishments/certificate/NP6HVTRKJ9ZD)*** - University of Michigan
+* ***[Interactivity with JavaScript](https://www.coursera.org/account/accomplishments/certificate/CKN4SHRU8U9H)*** - University of Michigan
+* ***[Introduction to HTML5](https://www.coursera.org/account/accomplishments/certificate/JNWKAB9E7LK5)*** - University of Michigan
 ***
 ## Languages

@@ -26,6 +26,18 @@ I'm looking for a job where I can become a valuable team member who will help to
 * Adobe Photoshop, Illustrator, Figma
 ***
 ## Code example
+***Count by X KATA from CODEWARS:***Create a function with two arguments that will return an array of the first n multiples of x
+```
+function countBy(x, n) {
+  let z = [];
+  let x1 = x;
+for (let i=0; i<n; i++){
+  z.push(x1);
+  x1=x1+x;
+}
+  return z;
+}
+```
 ***
 ## Courses
 ***

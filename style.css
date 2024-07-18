@@ -1,16 +1,52 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
+.page-body {
+    font-family: 'Raleway', sans-serif;
     background-color: #f0f0f0;
-    margin: 0;
+    color: #212121;
+    margin: 60px 365px 0px;
     padding: 0;
+    width:980px;
+    justify-content: center;
 }
+header{
+    display: flex;
+    margin: 0 auto; /*center content*/
+}
+.nav-list {
+    display: flex;
+    list-style: none;
+    width:470px;
+}
+
+.nav-list li {
+    margin-right: 25px;
+}
+
+.nav-list li a {
+    font-family:'Courier Prime';
+    font-size:16px;
+    font-style:regular;
+    text-decoration: none;
+    display: inline;
+}
+.logo {
+    font-size:30px;
+    font-style: bold;
+    margin-right:360px;
+}
+
 h1 {
-    color: #0a0f6a;
-    font-size: 24px;
+    font-size: 70px;
     margin-bottom: 10px;
 }
 p {
     color: #222;
     font-size: 16px;
     margin-bottom: 20px;
+}
+img {
+    width: 350px;
+    height: 450px;
+}
+.main-section {
+    
 }

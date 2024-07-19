@@ -121,3 +121,7 @@ ul {
 .rs-rschool-logo {
     margin: 0px 0px 0px 465px;
 }
+.skills-list-h {
+    list-style-type: none;
+    margin-bottom: 10px;
+}

@@ -5,6 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume Website</title>
     <link rel="stylesheet" href="style.css">
+    <script>
+        function typeEffect(element, speed) {
+            const text = element.innerHTML;
+            element.innerHTML = "";
+            let i = 0;
+            const timer = setInterval(() => {
+                if (i < text.length) {
+                    element.innerHTML += text.charAt(i);
+                    i++;
+                } else {
+                    clearInterval(timer);
+                    element.classList.remove('typing');
+                }
+            }, speed);
+        }
+
+        document.addEventListener("DOMContentLoaded", () => {
+            const elements = document.querySelectorAll('.typing');
+            elements.forEach((element) => {
+                typeEffect(element, 200);
+            });
+        });
+    </script>
 </head>
 <body class="page-body">
     <header>
@@ -26,9 +49,9 @@
                 alt="Photo of Pikuza Maryia"
             >
             <section class="texts-main-section">
-                <h1>Maryia<br>Pikuza</h1>
-                <h3>Frontend & UX/UI</h3>
-                <p>Hi! I’m a junior front-end developer & ux/ui designer. When I’m not exploring website universe, I indulge myself in writing stories, sketching or reading psychological books</p>
+                <h1 class="typing">Maryia Pikuza</h1>
+                <h3>Frontend, UX/UI</h3>
+                <p>Hi! I’m a junior front-end developer and ux/ui designer. When I’m not exploring website universe, I indulge myself in writing stories, sketching or reading psychological books</p>
             </section>
         </section>
         <section id="about-me">

@@ -3,8 +3,131 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Resume Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function typeEffect(element, speed) {
+            const text = element.innerHTML;
+            element.innerHTML = "";
+            let i = 0;
+            const timer = setInterval(() => {
+                if (i < text.length) {
+                    element.innerHTML += text.charAt(i);
+                    i++;
+                } else {
+                    clearInterval(timer);
+                    element.classList.remove('typing');
+                }
+            }, speed);
+        }
+
+        document.addEventListener("DOMContentLoaded", () => {
+            const elements = document.querySelectorAll('.typing');
+            elements.forEach((element) => {
+                typeEffect(element, 200);
+            });
+        });
+    </script>
 </head>
-<body>
+<body class="page-body">
+    <header>
+        <h2 class="logo">CV</h2>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-list-item"><a href="#about-me">About me</a></li>
+                <li class="nav-list-item"><a href="#skills">Skills</a></li>
+                <li class="nav-list-item"><a href="#code-example">Code example</a></li>
+                <li class="nav-list-item"><a href="#education">Education</a></li>
+                <li class="nav-list-item"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="main-section">
+            <img class="avatar-img"
+                src="img/avatar.jpeg"
+                alt="Photo of Pikuza Maryia"
+            >
+            <div class="texts-main-section">
+                <h1 class="typing">Maryia Pikuza</h1>
+                <h3>Frontend, UX/UI</h3>
+                <p>Hi! I’m a junior front-end developer and ux/ui designer. When I’m not exploring website universe, I indulge myself in writing stories, sketching or reading psychological books</p>
+            </div>
+        </section>
+        <section id="about-me">
+            <h2 class="section-header">//* about me *//</h2>
+            <p>Having started as a UI/UX Designer, I realised that my strong analytical skills and patience can help me to succeed in code area too. 
+                My aim is to work hard and dedicate as much time as possible to reach the position of a Frontend developer at some project.<br> <br>
+                <b><i>I consider myself a creative person who values logic in their work which fits great in programming sphere</i></b><br> <br>
+                I blast at:
+            </p>
+            <ul>
+                <li>Making neat and readable work files</li>
+                <li>Working for quality</li>
+                <li>Independent learning and self-development</li>
+                <li>Time-managment</li>
+            </ul>
+        </section>        
+        <section class="inner-section" id="skills">
+            <h2 class="section-header"> //* skills *//</h2>
+            <ul class="skills-list">
+                <li class="skills-list-h"><b>Technical</b></li>
+                <li>HTML5, CSS3</li>
+                <li>JavaScript</li>
+                <li>Git, GitHub</li>
+                <li>VS Code, IntelliJ IDEA, Visual Studio</li>
+            </ul>
+            <ul class="skills-list">
+                <li class="skills-list-h"><b>Design</b></li>
+                <li>Figma, Adobe Photoshop & Illustrator</li>
+                <li>UX Research and Testing</li>
+            </ul>
+            <ul class="skills-list">
+                <li class="skills-list-h"><b>English</b></li>
+                <li>C1 - <a href="https://cert.efset.org/QS4hVq" target=”_blank”>ES SET Test</a></li>
+            </ul>
+        </section>        
+        <section class="inner-section" id="code-example">
+            <h2 class="section-header"> //* code example *//</h2>
+            <pre><code>function countBy(x, n) {<br>let z = [];<br>let x1 = x;<br>for (let i=0; i&lt;n; i++){<br>z.push(x1);<br>x1=x1+x;<br>}<br>return z;<br>}</code>
+            </pre>
+        </section>
+        <section class="inner-section" id="education">
+            <h2 class="section-header">//* education *//</h2>
+            <ul>
+                <li class="edu-list-item">2021-now<br><b>BSUIR</b><br>Electronic Marketing</li>
+                <li class="edu-list-item">2024<br><b>RS School</b><br>Front-end/JavaScript developer</li>
+                <li class="edu-list-item">2023<br><b>University of Michigan</b><br>Basics of Web Development (HTML5, CSS3, JS)</li>
+                <li class="edu-list-item">2022-2023<br><b>California Institute of Arts</b><br>UX/UI Design Specialization</li>
+            </ul>
+        </section>
+        <section class="inner-section" id="contact">
+            <h2 class="section-header">//* contact *//</h2>
+            <ul>
+                <li class="contact-list-item"><a href="https://www.behance.net/fel-lord" target=”_blank”>Behance</a></li>
+                <li class="contact-list-item"><a href="https://www.linkedin.com/in/maryia-pikuza-946a60292/" target=”_blank”>LinkedIn</a></li>
+                <li class="contact-list-item"><b>E-mail</b><br><a href="pikuza.mari@gmail.com">pikuza.mari@gmail.com</a></li>
+                <li class="contact-list-item"><b>Discord</b><br><a href="https://discordapp.com/users/1119972850867118171" target=”_blank”>maryia8578</a></li>
+                <li class="contact-list-item"><b>Location</b><br>Minsk, Belarus</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <img src="img/line.svg" alt="line">
+        <div class="container">
+            <figure class="github-logo">
+                <a href="https://github.com/PikuzaMarie">
+                    <img src="img/github-logo.png" width="43" height="43" alt="Github logo">
+                </a>
+            </figure>
+            <p>Maryia Pikuza, 2024</p>
+            <figure class="rs-rschool-logo">
+                <a href="https://rs.school/courses/javascript-ru">
+                    <img src="img/rs-school-logo.svg" width="86" height="32" alt="RS School logo">
+                </a>
+            </figure>
+        </div>
+        
+    </footer>
 </body>
 </html>
